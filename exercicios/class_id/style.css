@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/*em HTML id  = em CSS #
+
+  em HTML class = em CSS .*/
+
+body{
+  background-color: #243840;
+  font: normal normal 16px Sans-serif ;
+}
+
+h1{
+  color: #F24B6A;
+}
+
+h2{
+  color: #8C495B;
+}
+
+p{
+  text-align: justify;
+  text-indent: 15px;
+}
+
+#principal{  /*H1 COM ID*/
+  text-align: center;
+  background-color: #8C495B;
+}
+
+.basico{
+  background-color:  white;
+}
+
+.intermediario{
+  background-color: rgb(225, 225, 92);
+}
+
+.avancado{
+  background-color: aqua;
+}
