@@ -18,6 +18,7 @@
             text-align: center;
             border-collapse: collapse;
             width: 600px;
+            position: relative;
         }
 
         caption{
@@ -26,6 +27,12 @@
             font-size: 1.5em;
             font-weight: bolder;
             letter-spacing: 1.5px;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            background-color: rgb(102, 101, 101);
+            top: -1px;
         }
 
         td, th{
